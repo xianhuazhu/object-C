@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5077F21BECCCCD00A10AAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5077F11BECCCCD00A10AAF /* main.m */; };
+		CC5077FA1BECCCDC00A10AAF /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5077F91BECCCDC00A10AAF /* Baby.m */; settings = {ASSET_TAGS = (); }; };
+		CC5077FD1BECCCE600A10AAF /* Norse.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5077FC1BECCCE600A10AAF /* Norse.m */; settings = {ASSET_TAGS = (); }; };
+		CC82E7AD1BED901D00C31D91 /* NSObject+doSomething.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82E7AC1BED901D00C31D91 /* NSObject+doSomething.m */; settings = {ASSET_TAGS = (); }; };
+		CC82E7B01BED926400C31D91 /* BadPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82E7AF1BED926400C31D91 /* BadPeople.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC5077EC1BECCCCD00A10AAF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC5077EE1BECCCCD00A10AAF /* BabyPrictice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BabyPrictice; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5077F11BECCCCD00A10AAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC5077F81BECCCDC00A10AAF /* Baby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
+		CC5077F91BECCCDC00A10AAF /* Baby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
+		CC5077FB1BECCCE600A10AAF /* Norse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Norse.h; sourceTree = "<group>"; };
+		CC5077FC1BECCCE600A10AAF /* Norse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Norse.m; sourceTree = "<group>"; };
+		CC82E7AB1BED901D00C31D91 /* NSObject+doSomething.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+doSomething.h"; sourceTree = "<group>"; };
+		CC82E7AC1BED901D00C31D91 /* NSObject+doSomething.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+doSomething.m"; sourceTree = "<group>"; };
+		CC82E7AE1BED926400C31D91 /* BadPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadPeople.h; sourceTree = "<group>"; };
+		CC82E7AF1BED926400C31D91 /* BadPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadPeople.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5077EB1BECCCCD00A10AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5077E51BECCCCD00A10AAF = {
+			isa = PBXGroup;
+			children = (
+				CC5077F01BECCCCD00A10AAF /* BabyPrictice */,
+				CC5077EF1BECCCCD00A10AAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5077EF1BECCCCD00A10AAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5077EE1BECCCCD00A10AAF /* BabyPrictice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5077F01BECCCCD00A10AAF /* BabyPrictice */ = {
+			isa = PBXGroup;
+			children = (
+				CC5077F11BECCCCD00A10AAF /* main.m */,
+				CC5077F81BECCCDC00A10AAF /* Baby.h */,
+				CC5077F91BECCCDC00A10AAF /* Baby.m */,
+				CC5077FB1BECCCE600A10AAF /* Norse.h */,
+				CC5077FC1BECCCE600A10AAF /* Norse.m */,
+				CC82E7AE1BED926400C31D91 /* BadPeople.h */,
+				CC82E7AF1BED926400C31D91 /* BadPeople.m */,
+				CC82E7AB1BED901D00C31D91 /* NSObject+doSomething.h */,
+				CC82E7AC1BED901D00C31D91 /* NSObject+doSomething.m */,
+			);
+			path = BabyPrictice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5077ED1BECCCCD00A10AAF /* BabyPrictice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5077F51BECCCCD00A10AAF /* Build configuration list for PBXNativeTarget "BabyPrictice" */;
+			buildPhases = (
+				CC5077EA1BECCCCD00A10AAF /* Sources */,
+				CC5077EB1BECCCCD00A10AAF /* Frameworks */,
+				CC5077EC1BECCCCD00A10AAF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyPrictice;
+			productName = BabyPrictice;
+			productReference = CC5077EE1BECCCCD00A10AAF /* BabyPrictice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5077E61BECCCCD00A10AAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC5077ED1BECCCCD00A10AAF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CC5077E91BECCCCD00A10AAF /* Build configuration list for PBXProject "BabyPrictice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC5077E51BECCCCD00A10AAF;
+			productRefGroup = CC5077EF1BECCCCD00A10AAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5077ED1BECCCCD00A10AAF /* BabyPrictice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5077EA1BECCCCD00A10AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC82E7B01BED926400C31D91 /* BadPeople.m in Sources */,
+				CC5077FD1BECCCE600A10AAF /* Norse.m in Sources */,
+				CC82E7AD1BED901D00C31D91 /* NSObject+doSomething.m in Sources */,
+				CC5077F21BECCCCD00A10AAF /* main.m in Sources */,
+				CC5077FA1BECCCDC00A10AAF /* Baby.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC5077F31BECCCCD00A10AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC5077F41BECCCCD00A10AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC5077F61BECCCCD00A10AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC5077F71BECCCCD00A10AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5077E91BECCCCD00A10AAF /* Build configuration list for PBXProject "BabyPrictice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5077F31BECCCCD00A10AAF /* Debug */,
+				CC5077F41BECCCCD00A10AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5077F51BECCCCD00A10AAF /* Build configuration list for PBXNativeTarget "BabyPrictice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5077F61BECCCCD00A10AAF /* Debug */,
+				CC5077F71BECCCCD00A10AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5077E61BECCCCD00A10AAF /* Project object */;
+}
